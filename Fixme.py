@@ -1,5 +1,5 @@
 #!/usr/bin/python3
- 
+
 
 def factorial(n):
     '''
@@ -27,7 +27,6 @@ def factorial(n):
 def triangular(n):
     '''
     Returns the nth triangular number.
-
     The nth triangular number is the sum of all numbers from 1 to n.
     It is like the factorial, but uses addition instead of multiplication.
 
@@ -48,4 +47,3 @@ def triangular(n):
     for i in range(2, n+1):
         result += i
     return result
-
